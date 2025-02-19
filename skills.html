@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+  
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+     <!-- FontAwesome Icons -->
+     <script src="https://kit.fontawesome.com/c9e3743fed.js" crossorigin="anonymous"></script>
+     
+     <!-- Bootstrap Icons -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+     
+     <!-- Custom Stylesheet -->
+     <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+     <!-- Header and Navigation -->
+     <header class="sticky-top bg-light shadow-lg">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!-- Logo and Brand Name -->
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="./images/assets/sk.jpg" alt="Logo" class="me-2" style="width: 60px; height: 40px;">
+                    <span class="fw-bold text-white">SATHISH PORTFOLIO</span>
+                </a>
+                
+                <!-- Navbar Toggler Button -->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white active" href="index.html" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="skills.html">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        
+                    
+                    <!-- Resume Button (Hidden by Default on Small Screens) -->
+                    <a href="your-resume.pdf" download="Your_Resume.pdf" class="btn btn-primary ms-2 d-lg-block d-none" id="resumeButton">Resume</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+         
+<!-- Skills Section Starts -->
+<section id="skills" class="py-5 mt-5">
+    <div class="container">
+        <h2 class="text-center mb-5" style="font-size: 2rem; font-weight: bold;">My Skills</h2>
+        <div class="row text-center">
+            <!-- Card 1: HTML -->
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body text-center">
+                        <img src="./images/assets/html5.png" alt="HTML Logo" class="img-fluid mb-3" style="width: 60px; height: 60px;">
+                        <h6 class="card-title">HTML 5</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: CSS -->
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body text-center">
+                        <img src="./images/assets/css3.png" alt="CSS Logo" class="img-fluid mb-3" style="width: 60px; height: 60px;">
+                        <h6 class="card-title">CSS 3</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: JavaScript -->
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body text-center">
+                        <img src="./images/assets/javascript.png" alt="JavaScript Logo" class="img-fluid mb-3" style="width: 60px; height: 60px;">
+                        <h6 class="card-title">JavaScript</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4: Bootstrap -->
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body text-center">
+                        <img src="./images/assets/bootstrap5.jpg" alt="Bootstrap Logo" class="img-fluid mb-3" style="width: 60px; height: 60px;">
+                        <h6 class="card-title">Bootstrap 5</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5: MySQL -->
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body text-center">
+                        <img src="./images/assets/mysql.png" alt="MySQL Logo" class="img-fluid mb-3" style="width: 60px; height: 60px;">
+                        <h6 class="card-title">MySQL</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6: SEO -->
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body text-center">
+                        <img src="./images/assets/seo.jpg" alt="SEO Logo" class="img-fluid mb-3" style="width: 60px; height: 60px;">
+                        <h6 class="card-title">SEO</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 7: Figma -->
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body text-center">
+                        <img src="./images/assets/figma.png" alt="Figma Logo" class="img-fluid mb-3" style="width: 60px; height: 60px;">
+                        <h6 class="card-title">Figma</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 8: GitHub -->
+            <div class="col-6 col-md-3 mb-4">
+                <div class="card shadow-sm border-0 rounded">
+                    <div class="card-body text-center">
+                        <img src="./images/assets/github.png" alt="GitHub Logo" class="img-fluid mb-3" style="width: 60px; height: 60px;">
+                        <h6 class="card-title">GitHub</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Skills Section Ends -->
+
+ <!-----Footer Section Starts-->
+
+ <footer>
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- About Section -->
+            <div class="col-md-4">
+                <div class="d-flex align-items-center mb-2">
+                    <a href="./index.html" class="d-flex align-items-center text-decoration-none">
+                        <img src="./images/assets/sk.jpg" alt="Logo" class="me-2" style="width: 60px; height: 40px; border: none;">
+                        <span class="fw-bold text-white">SATHISH PORTFOLIO</span>
+                        </a>    
+                </div>
+            </div>
+            
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5 class="mb-3">Quick Links</h5>
+                <ul class="list-unstyled mb-0">
+                    <li class="d-flex align-items-center mb-2">
+                        <a href="index.html" class="footer-link d-flex align-items-center text-decoration-none">
+                            <i class="fa-solid fa-house me-2"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="d-flex align-items-center mb-2">
+                        <a href="about.html" class="footer-link d-flex align-items-center text-decoration-none">
+                            <i class="bi bi-person me-2"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="d-flex align-items-center mb-2">
+                        <a href="skills.html" class="footer-link d-flex align-items-center text-decoration-none">
+                            <i class="fa-solid fa-code me-2"></i>
+                            <span>Skills</span>
+                        </a>
+                    </li>
+                    <li class="d-flex align-items-center mb-2">
+                        <a href="projects.html" class="footer-link d-flex align-items-center text-decoration-none">
+                            <i class="bi bi-folder me-2"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li class="d-flex align-items-center mb-2">
+                        <a href="contact.html" class="footer-link d-flex align-items-center text-decoration-none">
+                            <i class="bi bi-envelope me-2"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Social Media -->
+            <div class="col-md-4">
+                <h5 class="mb-3">Follow Me</h5>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2">
+                        <a href="https://github.com/sathishkumar1218" class="d-flex align-items-center text-decoration-none">
+                            <i class="bi bi-github me-2 social-icon"></i>
+                            <span class="text-white">GitHub</span>
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="https://www.linkedin.com/feed/" class="d-flex align-items-center text-decoration-none">
+                            <i class="bi bi-linkedin me-2 social-icon"></i>
+                            <span class="text-white">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="https://x.com/Sathish964099?t=B0iCy0sNP9GkQhgTJ614_Q&s=08" class="d-flex align-items-center text-decoration-none">
+                            <i class="bi bi-twitter me-2 social-icon"></i>
+                            <span class="text-white">Twitter</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="row mt-4">
+            <div class="col text-center">
+                <p class="mb-0">&copy; 2025 All rights reserved.</p>
+                <p class="thank">Thank you for visiting my portfolio website. Feel free to reach out for collaborations or inquiries.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!---- Footer Section Ends-->
+
+<script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const currentPage = window.location.pathname.split("/").pop() || "index.html";
+      const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+      navLinks.forEach((link) => {
+        link.classList.remove("active");
+        const linkPage = link.getAttribute("href").split("/").pop();
+        if (linkPage === currentPage) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
