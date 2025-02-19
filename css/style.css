@@ -16,7 +16,8 @@ body {
 
 .navbar-nav .nav-link.active {
   color: white !important;
-  font-weight: bold;
+
+  border-radius: 0.25rem; /* Optional: Rounded corners for the active link */
 }
 
 .navbar-nav .nav-link {
