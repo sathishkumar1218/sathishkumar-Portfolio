@@ -30,30 +30,38 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   /*  Navigation link color changes for diferent pages */
-
   document.addEventListener("DOMContentLoaded", function () {
     // Get the current page filename (e.g., "about.html")
-    let currentPage = window.location.pathname.split("/").pop();
-
+    let currentPage = window.location.pathname.split("/").pop() || "index.html";
+  
     // Select all navigation links
     let navLinks = document.querySelectorAll(".navbar-nav .nav-link");
-
-    // Loop through each navigation link
-    navLinks.forEach(link => {
-        // Remove 'active' class from all links
-        link.classList.remove("active");
-
-        // Check if the link's href matches the current page
-        if (link.getAttribute("href") === currentPage) {
-            link.classList.add("active"); // Add 'active' class to the matching link
-        }
+  
+    // Function to set active link with white color
+    function setActiveLink(link) {
+      navLinks.forEach((navItem) => {
+        navItem.classList.remove("active", "text-white");
+      });
+      link.classList.add("active", "text-white");
+    }
+  
+    // Set the active link on page load based on current URL
+    navLinks.forEach((link) => {
+      let linkPage = link.getAttribute("href").split("/").pop();
+      if (linkPage === currentPage) {
+        setActiveLink(link);
+      }
+  
+      // Set the active link and color on click
+      link.addEventListener("click", function () {
+        setActiveLink(link);
+      });
     });
-});
+  });
+  
 
 
 
 
-
-/* Contact form Response details */
 
 
